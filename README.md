@@ -1,7 +1,14 @@
 # cloud-foundry-local-installation-macbook-pro
 ### pre-req:
 1. install vagrant from vagrantup.com
-
+2. install brew ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+3. install brew cask ```brew install caskroom/cask/brew-cask```
+4. install virtual box ``` brew cask install virtualbox```
+5. install spiff
+ ```bash
+ brew tap xoebus/homebrew-cloudfoundry
+ brew install spiff
+ ```
 ### install
 ```bash
 sudo gem install bosh_cli
