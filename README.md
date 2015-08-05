@@ -26,4 +26,6 @@ cd ..
 git clone https://github.com/cloudfoundry/cf-release
 cd cf-release
 ./update
+cd ../bosh-lite/
+./bin/provision_cf
 ```
