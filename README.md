@@ -5,10 +5,12 @@
 3. install brew cask ```brew install caskroom/cask/brew-cask```
 4. install virtual box ``` brew cask install virtualbox```
 5. install spiff
- ```bash
+ 
+```bash
  brew tap xoebus/homebrew-cloudfoundry
  brew install spiff
- ```
+```
+ 
 ### install
 ```bash
 sudo gem install bosh_cli
